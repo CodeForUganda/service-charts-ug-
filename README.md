@@ -15,25 +15,43 @@ Contributions are welcome! Here are some ways to contribute.
    https://github.com/CodeForUganda/service-charts-ug-
 
 2. You'll be redirected to :
+```bash
+
 https://github.com/your-username/service-charts-ug-.git
 
+```
 3. Clone it the repository
+```bash 
+
 git clone https://github.com/CodeForUganda/service-charts-ug-.git
 
+```
 4. Open in the text editor of your choice
 
 5. Create New Branch
+   ```bash
+   
    cd repository
    git branch new-branch
    git checkout new-branch
 
+```
 6. Make your edits Locally
+   ```bash
+   
    git add -A
 
+```
 7. Commit the changes
+   ```bash
+
    git commit -m "Commit message here...."
 
+```
 8. Submit a pull request
+   ```bash
+
    git push --set-upstream origin new-branch
 
+```
 If there are any doubts, questions, etc, please open an issue and we can chat about it! Heck, if you have an idea but aren't sure how to approach it, open an issue anyway and we'll help you through it.
