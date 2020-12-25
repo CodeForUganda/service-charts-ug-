@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+
+// Components
+import { Navbar } from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="App">
-   <h1>Hello from the app </h1>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
