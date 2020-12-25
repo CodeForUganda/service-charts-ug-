@@ -98,7 +98,6 @@ body {
   height: 100vh;
   text-align: center;
   color: white;
-  /* background: url("../src/assets/img/bg2.png") no-repeat bottom center scroll; */
   background-color: var(--color1);
   -webkit-background-size: cover;
   -moz-background-size: cover;
