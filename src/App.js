@@ -3,12 +3,14 @@ import "./App.css";
 // Components
 import { Navbar } from "./components/Navbar";
 import Hero from "./components/Hero";
+import Banner from './components/Banner'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <Hero />
+      <Banner/>
     </div>
   );
 }
