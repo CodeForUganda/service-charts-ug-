@@ -25,6 +25,7 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid var(--color2);
   background-color: var(--color1);
+  position: relative;
 }
 
 #mainNav .navbar-toggler {
@@ -84,21 +85,21 @@ body {
     outline: none;
     background-color: var(--color2);
   }
+
   #mainNav .nav-link.active:hover {
     color: white;
   }
 }
 
 /* STYLES FOR THE HEADER SECTION.  */
-masthead {
+.masthead {
   display: table;
-  width: 100%;
-  height: auto;
-  padding: 200px 0;
+  min-width: 1000px;
+  height: 100vh;
   text-align: center;
   color: white;
-  background: url("../src/assets/img/bg.png") no-repeat bottom center scroll;
-  /* background-color: black; */
+  background: url("../src/assets/img/bg2.png") no-repeat bottom center scroll;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,6 +109,7 @@ masthead {
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+  color: white;
 }
 
 .masthead .intro-body .brand-heading {
@@ -124,9 +126,14 @@ masthead {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 50px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
   }
+}
+.btn-circle:focus, .btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
 }

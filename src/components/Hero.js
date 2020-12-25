@@ -1,23 +1,27 @@
 import React from "react";
-import bg from "../assets/img/bg.png";
+
 
 const Hero = () => {
   return (
-       <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Enabling Enterprise in Uganda</h1>
-<p class="intro-text">Call for applications- <a href="https://inplaceofwar.net/">In Place of War</a>, in partnership with the Mastercard Foundation, is launching an innovative certified training programme, mentoring network and awards to support the development of creative and social enterprise in Uganda.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
+    <header className="masthead"
+
+    >
+      <div className="intro-body">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
+              <h1 className="brand-heading">Uganda Decides.</h1>
+<p className="intro-text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam maxime obcaecati, velit earum nobis saepe praesentium voluptate aut consequatur non quibusdam necessitatibus alias provident?.</p>
+              <a href="#about" className="btn btn-circle js-scroll-trigger">
+                <i className="fa fa-angle-double-down animated"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </header>  );
+    </header>
+  );
 };
 
 export default Hero;
