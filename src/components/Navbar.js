@@ -11,11 +11,7 @@ export const Navbar = () => {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img
-            src={logo}
-            srcSet={logoSmall }
-            alt="Logo for the intiative "
-          />
+          <img src={logo} srcSet={logoSmall} alt="Logo for the intiative " />
         </Link>
         <button
           className="navbar-toggler"
@@ -31,24 +27,24 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link className="nav-link"  to="/">
-                Home
+              <Link className="nav-link" to="/">
+                Deaths
                 <span className="sr-only">(current)</span>
-                </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                About
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                Services
+                Videos
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                Contact
+                Service Delivery
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Election Information
               </Link>
             </li>
           </ul>

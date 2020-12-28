@@ -12,22 +12,25 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-4 col-xs-12 text-center skill">
               <div className="mt-5">
-                <h3 className="h4 mb-2">We care</h3>
-                <p className="text-center">Our goal is to see that we empower the youth nd communities to see that they achieve their full potential as well as improve their lives.
+                <h3 className="h4 mb-2">Open</h3>
+                <p className="text-center">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aperiam dolore placeat possimus natus culpa. Eveniet odit eum inventore optio.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 text-center skill">
               <div className="mt-5">
-                <h3 className="h4 mb-2">Professional</h3>
-                <p className="text-center">Our team is comprised of multi-talented folks that are deeply skilled and qualified to equip the students with the required skills.
+                <h3 className="h4 mb-2">Verified</h3>
+                <p className="text-center">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aperiam dolore placeat possimus natus culpa. Eveniet odit eum inventore optio.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 text-center skill">
               <div className="mt-5">
-                <h3 className="h4 mb-2">Innovative</h3>
-                <p className="text-center">Innovation is at the heart of our organization and imparting ito our students is a misssion that we deeply care about.
+                <h3 className="h4 mb-2">Reliable</h3>
+                <p className="text-center">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aperiam dolore placeat possimus natus culpa. Eveniet odit eum inventore optio.
                 </p>
               </div>
             </div>
